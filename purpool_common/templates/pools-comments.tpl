@@ -1,0 +1,2 @@
+<tr><td id="{$randomnumber}_1"><div class="leftcell"><img src="icons/shout.gif" alt="" class="icon" /></div>
+<div class="rightcell"><span class="purple">{$name}</span><br /><span class="grey">{$date}</span><br />{$comment}</div></td></tr>

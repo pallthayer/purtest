@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>SubscribeMe Site Form Sample</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<br>
+<br>
+<table width="50%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td> 
+      <p><b><font size="2" face="Arial, Helvetica, sans-serif">Formmail sample</font></b></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">This sample form is 
+        preconfigured to use Formmail.pl on your account, a universal CGI program 
+        and WWW form to Email gateway. Submitting this form will send the information 
+        via email to your administrator account's email address serveradmin@purpool.com. 
+        Feel free to copy this form for use into your web pages. You can add/subtract 
+        any number of fields that you wish. Further documentation, and an overview 
+        for use may be found at the following link: <a href="http://www.worldwidemart.com/scripts/readme/formmail.shtml" target="_blank">http://www.worldwidemart.com/scripts/readme/formmail.shtml</a></font></p>
+    </td>
+  </tr>
+</table>
+<p><br>
+</p>
+<form name="form1" method="post" action="/cgi-bin/formmail.pl">
+  <input type=hidden name="recipient" value="serveradmin@purpool.com">
+  <input type=hidden name="redirect" value="/.samples/formmail/thankyou.html">
+  <input type=hidden name="title" value="Thank you for submitting to purpool.com">
+  <table width="300" border="0" cellspacing="0" cellpadding="1" align="center">
+    <tr> 
+      <td bgcolor="#CCCCCC"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#EEEEEE">
+          <tr> 
+            <td align="right">&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td width="10">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right" height="30"><font size="2" face="Arial, Helvetica, sans-serif"> 
+              Name :</font></td>
+            <td width="10" height="30">&nbsp;</td>
+            <td height="30"> 
+              <input type="text" name="realname" size="20">
+            </td>
+            <td width="10" height="30">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right" height="30"><font size="2" face="Arial, Helvetica, sans-serif">Company 
+              :</font></td>
+            <td width="10" height="30">&nbsp;</td>
+            <td height="30"> 
+              <input type="text" name="company" size="20">
+            </td>
+            <td width="10" height="30">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right" height="30"><font size="2" face="Arial, Helvetica, sans-serif">Phone 
+              :</font></td>
+            <td width="10" height="30">&nbsp;</td>
+            <td height="30"> 
+              <input type="text" name="phone" size="20">
+            </td>
+            <td width="10" height="30">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right" height="30"><font size="2" face="Arial, Helvetica, sans-serif">Email 
+              :</font></td>
+            <td width="10" height="30">&nbsp;</td>
+            <td height="30"> 
+              <input type="text" name="email" size="20">
+            </td>
+            <td width="10" height="30">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right" height="30"><font size="2" face="Arial, Helvetica, sans-serif">Subject 
+              :</font></td>
+            <td width="10" height="30">&nbsp;</td>
+            <td height="30"> 
+              <input type="text" name="subject" size="20">
+            </td>
+            <td width="10" height="30">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right" height="30"><font size="2" face="Arial, Helvetica, sans-serif">Message 
+              :</font></td>
+            <td width="10" height="30">&nbsp;</td>
+            <td height="30"> 
+              <textarea name="message" wrap="VIRTUAL" rows="8" cols="20"></textarea>
+            </td>
+            <td width="10" height="30">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right">&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td width="10">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right">&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            <td align="right"> 
+              <input type="submit" name="Submit" value="Submit">
+            </td>
+            <td width="10">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td align="right">&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td width="10">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</form>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
+

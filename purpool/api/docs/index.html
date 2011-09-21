@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Purpool Car Data API - Documentation</title>
+		<link rel="stylesheet" type="text/css" href="doc_styles.css" />
+	</head>
+	<body>
+		<h1>Purpool</h1>
+		<h2>API Documentation</h2>
+		<p>Purpool has created an API that can be used by developers to access U.S. car data 
+		from 1985-present. All data was provided by <a href="http://www.fueleconomy.gov">fueleconomy.gov</a>,
+		 a collaboration between the US Department of Energy and the EPA.</p>	
+		<div id="contents">
+			<h3>Contents</h3>
+			<ul>
+				<li><a href="index.html#methods">Methods</a></li>
+					<ul>
+						<li><a href="index.html#getMake">getMake</a></li>
+						<li><a href="index.html#getModel">getModel</a></li>
+						<li><a href="index.html#getStyle">getStyle</a></li>
+						<li><a href="index.html#getMpg">getMpg</a></li>
+						<li><a href="index.html#getC02">getC02</a></li>
+						<li><a href="index.html#emissionCalc">emissionCalc</a></li>
+					</ul>
+				<li><a href="index.html#formats">Return Formats</a></li>
+			</ul>
+		</div>
+		<h3><a name="methods">Methods</a></h3>
+		<p>In order to utilize the Car Data API a method parameter must be passed to
+		<a href="http://www.purpool.com/api/call.php">http://www.purpool.com/api/call.php</a>
+		 along with the given method's required parameters. A format parameter can also be
+		  passed; it defaults to xml.</p>
+		<div class="box">
+			<h4><a name="getMake">getMake</a></h4>
+			<p>Retrieves active car manufacturers for any given year.</p>
+			Required Parameters:
+			<ul>
+				<li>year</li>
+			</ul>
+			Example:
+			<div class="example"><a href="http://www.purpool.com/api/call.php?method=getMake&year=2008">http://www.purpool.com/api/call.php?method=getMake&year=2008</a></div>
+		</div>
+		<div class="box">
+			<h4><a name="getModel">getModel</a></h4>
+			<p>Retreieves models for any given year and make.</p>
+			Required Parameters:
+			<ul>
+				<li>year</li>
+				<li>make</li>
+			</ul>
+			Example (in json format):
+			<div class="example"><a href="http://www.purpool.com/api/call.php?method=getModel&year=2008&make=Honda&format=json">http://www.purpool.com/api/call.php?method=getModel&year=2008&make=Honda&format=json</a></div>
+		</div>
+		<div class="box">
+			<h4><a name="getStyle">getStyle</a></h4>
+			<p>Retrieves the transmission/cylinder styles for any given model.</p>
+			Required Parameters:
+			<ul>
+				<li>year</li>
+				<li>model</li>
+			</ul>
+			Example:
+			<div class="example"><a href="http://www.purpool.com/api/call.php?method=getStyle&year=2008&model=Civic">http://www.purpool.com/api/call.php?method=getStyle&year=2008&model=Civic</a></div>
+		</div>
+		<div class="box">
+			<h4><a name="getMpg">getMpg</a></h4>
+			<p>Retrieves the city, highway, and combined miles per gallon for a specific style of model.
+			 Results are based on the EPA's <a href="http://www.fueleconomy.gov/feg/ratings2008.shtml">new methodology</a>
+			  for mpg etimates.</p>
+			Required Parameters:
+			<ul>
+				<li>year</li>
+				<li>model</li>
+				<li>trans</li>
+			</ul>
+			Example:
+			<div class="example"><a href="http://www.purpool.com/api/call.php?method=getMpg&year=2008&model=Civic&trans=Automatic%205-spd">http://www.purpool.com/api/call.php?method=getMpg&year=2008&model=Civic&trans=Automatic%205-spd</a></div>
+		</div>
+		<div class="box">
+			<h4><a name="getC02">getC02</a></h4>
+			<p>Retrieves the annual Carbon Dioxide emissions, in metric tonnes, for a specific style of model.</p>
+			Required Parameters:
+			<ul>
+				<li>year</li>
+				<li>model</li>
+				<li>trans</li>
+			</ul>
+			Example:
+			<div class="example"><a href="http://www.purpool.com/api/call.php?method=getC02&year=2008&model=Civic&trans=Automatic%205-spd">http://www.purpool.com/api/call.php?method=getC02&year=2008&model=Civic&trans=Automatic%205-spd</a></div>
+		</div>
+		<div class="box">
+			<h4><a name="emissionCalc">emissionCalc</a></h4>
+			<p>Takes the amount of miles traveled and the mpg of the vehicle used and calculates
+			the amount of greenhouse gases emitted, in kilograms.</p>
+			Required Parameters:
+			<ul>
+				<li>miles</li>
+				<li>mpg</li>
+			</ul>
+			Example:
+			<div class="example"><a href="http://www.purpool.com/api/call.php?method=emissionCalc&miles=230&mpg=18">http://www.purpool.com/api/call.php?method=emissionsCalc&miles=230&mpg=18</a></div>
+		</div>
+		<h3><a name="formats">Return Formats</a></h3>
+		<ul>
+			<li>json</li>
+			<li>xml (default)</li>
+		</ul>
+	</body>
+</html>

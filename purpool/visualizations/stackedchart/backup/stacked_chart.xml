@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stacked_chart>
+	<weeks>10/5/2008, 10/12/2008, 10/19/2008, 10/25/2008, 11/2/2008, 11/9/2008, 11/16/2008, 11/23/2008, 11/30/2008, 12/07/2008, 12/14/2008, 12/21/2008, 12/28/2008, 01/04/2009, 01/11/2009, 01/18/2009, 01/25/2009, 02/01/2009, 02/08/2009, 02/15/2009, 02/22/2009, 03/01/2009, 03/08/2009, 03/15/2009</weeks>
+	<pool name="Joyriders" members="4" cars_off_road="101"  index="242">
+		<miles_not_driven>176, 204, 276, 325, 276, 112, 134, 206, 244, 244, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0 </miles_not_driven>
+	</pool>
+	<pool name="Fastlane" members="3" cars_off_road="98" index="368">
+		<miles_not_driven>112, 134, 206, 244, 244, 320, 340, 400, 400,360, 0, 0, 0, 0, 0, 0, 400,360, 176, 204, 276, 325, 276, 400</miles_not_driven>
+	</pool>
+	<pool name="Brewster_north" members="5" cars_off_road="122"  index="322">
+		<miles_not_driven>320, 340, 400, 400,360, 176, 204, 276, 325, 276, 320, 340, 400, 400,360, 176, 204, 276, 325, 276,360, 386, 342, 412</miles_not_driven>
+	</pool>
+	<pool name="Never on Sundays" members="5" cars_off_road="132"  index="542">
+		<miles_not_driven>0, 0, 120, 200, 360, 386, 342, 412, 390, 412, 212, 249, 212, 220, 280, 276, 280, 300, 320, 320, 300, 324, 324, 300</miles_not_driven>
+	</pool>
+</stacked_chart>

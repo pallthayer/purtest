@@ -1,0 +1,1 @@
+<ul>{section name=info loop=$emails}<li>{$emails[info].email|stripslashes}</li>{/section}</ul>

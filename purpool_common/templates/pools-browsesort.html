@@ -1,0 +1,19 @@
+{if $pools}
+<img src="images/table2.gif" /><br/>
+	<table class="table2">
+        <tr class="tablehead">
+            <th>Title</th>
+            <th>Members</th>
+            <th>Options</th>
+        </tr>
+        {section name=info loop=$pools}
+            <tr>
+                <td>{$pools[info].title}</td>
+                <td>{$pools[info].nummembers}</td>
+                <td><a href="pools.php?state=viewprofile&pool={$pools[info].pool_id}">View Profile</a></td>
+            </tr>
+        {/section}
+    </table>
+{else}
+    <p>There are currently no pools that match this criteria.</p>
+{/if}

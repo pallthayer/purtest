@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<savings>
+	<week start="10/5/2008" end="10/11/2008" number="46">
+		<savings_in_gas>11.49</savings_in_gas>
+		<miles_not_driven>234</miles_not_driven>
+		<cars_off_the_road>11</cars_off_the_road>
+		<savings_in_co2>212</savings_in_co2>
+	</week>
+	<week start="10/12/2008" end="10/18/2008" number="47">
+		<savings_in_gas>15.36</savings_in_gas>
+		<miles_not_driven>276</miles_not_driven>
+		<cars_off_the_road>14</cars_off_the_road>
+		<savings_in_co2>302</savings_in_co2>
+	</week>
+	<week start="10/19/2008" end="10/25/2008" number="46">
+		<savings_in_gas>16.32</savings_in_gas>
+		<miles_not_driven>312</miles_not_driven>
+		<cars_off_the_road>14</cars_off_the_road>
+		<savings_in_co2>242</savings_in_co2>
+	</week>
+	<week start="10/25/2008" end="11/1/2008" number="47">
+		<savings_in_gas>15.45</savings_in_gas>
+		<miles_not_driven>282</miles_not_driven>
+		<cars_off_the_road>10</cars_off_the_road>
+		<savings_in_co2>265</savings_in_co2>
+	</week>
+	<week start="11/2/2008" end="11/8/2008" number="46">
+		<savings_in_gas>17.54</savings_in_gas>
+		<miles_not_driven>304</miles_not_driven>
+		<cars_off_the_road>13</cars_off_the_road>
+		<savings_in_co2>300</savings_in_co2>
+	</week>
+	<week start="11/9/2008" end="11/15/2008" number="47">
+		<savings_in_gas>15.36</savings_in_gas>
+		<miles_not_driven>276</miles_not_driven>
+		<cars_off_the_road>14</cars_off_the_road>
+		<savings_in_co2>302</savings_in_co2>
+	</week>
+	<week start="11/16/2008" end="11/22/2008" number="46">
+		<savings_in_gas>11.49</savings_in_gas>
+		<miles_not_driven>234</miles_not_driven>
+		<cars_off_the_road>11</cars_off_the_road>
+		<savings_in_co2>212</savings_in_co2>
+	</week>
+	<week start="11/23/2008" end="11/29/2008" number="47">
+		<savings_in_gas>4.43</savings_in_gas>
+		<miles_not_driven>112</miles_not_driven>
+		<cars_off_the_road>4</cars_off_the_road>
+		<savings_in_co2>102</savings_in_co2>
+	</week>
+	<week start="11/30/2008" end="12/06/2008" number="46">
+		<savings_in_gas>11.49</savings_in_gas>
+		<miles_not_driven>234</miles_not_driven>
+		<cars_off_the_road>11</cars_off_the_road>
+		<savings_in_co2>212</savings_in_co2>
+	</week>
+	<week start="12/07/2008" end="12/13/2008" number="47">
+		<savings_in_gas>15.36</savings_in_gas>
+		<miles_not_driven>276</miles_not_driven>
+		<cars_off_the_road>14</cars_off_the_road>
+		<savings_in_co2>302</savings_in_co2>
+	</week>
+	<week start="12/14/2008" end="12/20/2008" number="46">
+		<savings_in_gas>17.24</savings_in_gas>
+		<miles_not_driven>434</miles_not_driven>
+		<cars_off_the_road>16</cars_off_the_road>
+		<savings_in_co2>212</savings_in_co2>
+	</week>
+	<week start="12/21/2008" end="12/27/2008" number="47">
+		<savings_in_gas>15.36</savings_in_gas>
+		<miles_not_driven>276</miles_not_driven>
+		<cars_off_the_road>14</cars_off_the_road>
+		<savings_in_co2>302</savings_in_co2>
+	</week>
+</savings>

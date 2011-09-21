@@ -1,0 +1,32 @@
+body {
+	font: 14px Arial, Helvetica, sans-serif;
+	margin: 2% 20%;
+}
+
+ul {
+	list-style-type: square;
+}
+
+h4 {
+	color: #cc65cc;
+}
+
+#contents {
+	background: #EEE;
+	border: 1px dotted #000;
+	margin: 10px 0;
+	padding: 10px;
+	width: 300px;
+}
+
+#contents ul, h3 {
+	margin: 0;
+}
+			
+#contents li {
+	margin: 2px 0;
+}
+
+.box {
+	margin: 0 5%;
+}
